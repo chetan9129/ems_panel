@@ -31,7 +31,7 @@ To set up the Employee Management System locally, follow the instructions below.
 
     bash
 
-git clone https://github.com/yourusername/employee-management-system.git
+git clone https://github.com/chetan9129/ems_panel.git
 
 ### Navigate to the Project Directory:
 
