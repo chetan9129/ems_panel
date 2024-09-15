@@ -73,7 +73,7 @@ function EmployeeList() {
 
   const deleteEmployee = async (employeeId) => {
     try {
-      await axios.delete(`http://localhost:5000/api/employee/${employeeId}`);
+      await axios.delete(`http://localhost:5000/api/delete/${employeeId}`);
       fetchEmployees();
     } catch (error) {
       console.error("Error deleting employee:", error);
