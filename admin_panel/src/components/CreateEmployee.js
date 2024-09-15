@@ -49,7 +49,7 @@ function CreateEmployee() {
     formData.append("gender", gender);
     formData.append("course", course.join(","));
     if (image) {
-      formData.append("image", image); // Add the image file to FormData
+      formData.append("image", image);
     }
 
     try {
@@ -58,7 +58,7 @@ function CreateEmployee() {
         formData,
         {
           headers: {
-            "Content-Type": "multipart/form-data", // Ensure the correct content type
+            "Content-Type": "multipart/form-data",
           },
         }
       );

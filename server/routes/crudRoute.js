@@ -4,13 +4,11 @@ const express = require("express");
 const Employee = require("../models/employee");
 const router = express.Router();
 
-// Ensure the directory exists
 const dir = "./uploads";
 if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir, { recursive: true });
 }
 
-// Set up multer for file handling
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, dir); // Store in the "uploads" folder
@@ -22,7 +20,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({
   storage,
-  limits: { fileSize: 1024 * 1024 * 50 }, // Limit file size to 5MB
+  limits: { fileSize: 1024 * 1024 * 50 }, // Limit of Images
   fileFilter: (req, file, cb) => {
     const allowedTypes = ["image/jpeg", "image/png", "image/jpg"];
     if (!allowedTypes.includes(file.mimetype)) {
@@ -35,8 +33,8 @@ const upload = multer({
 });
 router.post("/create", upload.single("image"), async (req, res) => {
   try {
-    console.log("Request Body: ", req.body); // Debug request body
-    console.log("Uploaded File: ", req.file); // Debug uploaded file
+    console.log("Request Body: ", req.body);
+    console.log("Uploaded File: ", req.file);
 
     const employeeList = new Employee({
       f_Name: req.body.name,
@@ -46,7 +44,7 @@ router.post("/create", upload.single("image"), async (req, res) => {
       f_Gender: req.body.gender,
       f_Course: req.body.course,
       f_Createdate: new Date(),
-      f_Image: req.file ? req.file.path : null, // Store image path
+      f_Image: req.file ? req.file.path : null,
     });
 
     const newEmployee = await employeeList.save();
@@ -79,10 +77,9 @@ router.put("/update/:id", upload.single("image"), async (req, res) => {
       f_Mobile: mobile,
       f_Designation: designation,
       f_Gender: gender,
-      f_Course: courseArray.join(","), // Convert back to string for storage
+      f_Course: courseArray.join(","),
     };
 
-    // If an image is uploaded, include it in the update
     if (req.file) {
       updateFields.f_Image = req.file.path;
     }

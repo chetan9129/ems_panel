@@ -1,7 +1,6 @@
-/* Login.css */
 
 body {
-    background-color: #f9f9f9; /* Light, soft background color */
+    background-color: #f9f9f9; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -16,28 +15,28 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 600px; /* Increased max-width for larger form */
+    max-width: 600px; 
     padding: 20px;
     box-sizing: border-box;
   }
   
   .login-box {
     background: #ffffff;
-    border-radius: 16px; /* Larger border radius for a more modern look */
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); /* More pronounced shadow for depth */
-    padding: 4rem; /* Increased padding for spacious design */
+    border-radius: 16px; 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); 
+    padding: 4rem; 
     width: 100%;
   }
   
   .login-key {
     text-align: center;
-    font-size: 4rem; /* Larger icon for better visibility */
+    font-size: 4rem; 
     color: #007bff;
     margin-bottom: 2rem;
   }
   
   .login-title {
-    font-size: 2.5rem; /* Larger title for prominence */
+    font-size: 2.5rem; 
     font-weight: 600;
     color: #333;
     margin-bottom: 2rem;
@@ -57,11 +56,11 @@ body {
   }
   
   .form-group {
-    margin-bottom: 2rem; /* Increased margin for better spacing */
+    margin-bottom: 2rem; 
   }
   
   .form-control-label {
-    font-size: 1.125rem; /* Larger font size for labels */
+    font-size: 1.125rem;
     color: #666;
     margin-bottom: 0.75rem;
     display: block;
@@ -69,9 +68,9 @@ body {
   
   .form-control {
     border: 1px solid #ccc;
-    border-radius: 8px; /* Rounded corners for inputs */
-    padding: 1rem; /* Increased padding for a larger input area */
-    font-size: 1.125rem; /* Larger font size for better readability */
+    border-radius: 8px; 
+    padding: 1rem;
+    font-size: 1.125rem;
     width: 100%;
     box-sizing: border-box;
   }
@@ -87,8 +86,8 @@ body {
     color: #ffffff;
     border: none;
     border-radius: 8px;
-    padding: 1rem 2rem; /* Larger padding for a more prominent button */
-    font-size: 1.25rem; /* Larger font size for better readability */
+    padding: 1rem 2rem; 
+    font-size: 1.25rem; 
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
     width: 100%;
@@ -107,7 +106,7 @@ body {
   
   @media (max-width: 768px) {
     .login-box {
-      padding: 2rem; /* Adjusted padding for smaller screens */
+      padding: 2rem; 
     }
   
     .login-title {
@@ -115,7 +114,7 @@ body {
     }
   
     .btn-login {
-      font-size: 1.125rem; /* Adjusted font size for buttons */
+      font-size: 1.125rem; 
     }
   }
   

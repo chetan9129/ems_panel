@@ -10,7 +10,7 @@ function Discover() {
     if (cookieValue) {
       return JSON.parse(cookieValue[1]);
     }
-    return null; // Return null if the cookie is not found
+    return null;
   }
 
   const user = getUser();

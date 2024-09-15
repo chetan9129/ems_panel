@@ -9,7 +9,7 @@ function Navbar() {
     if (cookieValue) {
       return JSON.parse(cookieValue[1]);
     }
-    return null; // Return null if the cookie is not found
+    return null;
   }
 
   const user = getUser();
@@ -124,33 +124,6 @@ function Navbar() {
                     Login
                   </a>
                 </li>
-
-                {/* <li className="nav-item dropdown ">
-                  <a
-                    className="nav-link  dropdown-toggle"
-                    href="#"
-                    id="navbarDropdownMenuLink"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Dropdown link
-                  </a>
-                  <div
-                    className="dropdown-menu bg-dark dropdown-menu-style"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <a className="dropdown-item" href="#">
-                      Action
-                    </a>
-                    <a className="dropdown-item" href="#">
-                      Another action
-                    </a>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </div>
-                </li> */}
               </>
             )}
           </ul>

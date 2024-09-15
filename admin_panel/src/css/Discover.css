@@ -1,8 +1,8 @@
-/* General Styles */
+
 .discover-container {
     padding: 2rem;
-    background-color: #f8f9fa; /* Light background for light theme */
-    color: #343a40; /* Dark text color for contrast */
+    background-color: #f8f9fa; 
+    color: #343a40; 
     min-height: 80vh;
   }
   
@@ -22,8 +22,8 @@
     font-size: 18px;
     font-weight: 500;
     color: #ffffff;
-    background-color: #007bff; /* Blue background */
-    border: 1px solid #007bff; /* Blue border */
+    background-color: #007bff; 
+    border: 1px solid #007bff; 
     border-radius: 5px;
     text-decoration: none;
     margin: 0 10px;
@@ -31,14 +31,14 @@
   }
   
   .action-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
     color: #ffffff;
   }
   
   .divider {
     margin: 2rem 0;
     border: 0;
-    border-top: 1px solid #dee2e6; /* Light grey divider */
+    border-top: 1px solid #dee2e6; 
   }
   
   .section-heading {
@@ -47,7 +47,7 @@
   }
   
   .section-heading span {
-    color: #007bff; /* Highlighted color */
+    color: #007bff; 
   }
   
   .section-description {

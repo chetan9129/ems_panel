@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "../css/EmployeeList.css"; // Add necessary CSS for styling
+import "../css/EmployeeList.css";
 import { Link } from "react-router-dom";
 
 function EmployeeList() {

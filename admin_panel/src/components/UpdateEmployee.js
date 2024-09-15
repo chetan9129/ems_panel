@@ -5,7 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import Success from "./Success";
 import Error from "./Error";
 import "react-toastify/dist/ReactToastify.css";
-import "../css/UpdateEmployee.css"; // Assuming new styles
+import "../css/UpdateEmployee.css";
 
 function UpdateEmployee() {
   const { id } = useParams();

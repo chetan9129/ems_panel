@@ -1,7 +1,7 @@
-/* General Footer Styles */
+
 .footer-container {
-    background-color: #f1f1f1; /* Light background color for light theme */
-    color: #333; /* Dark text color */
+    background-color: #f1f1f1; 
+    color: #333; 
     padding: 2rem 0;
     font-family: Arial, sans-serif;
   }
@@ -21,7 +21,7 @@
   .footer-heading {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #007bff; /* Blue color for headings */
+    color: #007bff; 
     margin-bottom: 1rem;
   }
   
@@ -41,12 +41,12 @@
   
   .footer-link {
     text-decoration: none;
-    color: #007bff; /* Blue color for links */
+    color: #007bff; 
     transition: color 0.3s;
   }
   
   .footer-link:hover {
-    color: #0056b3; /* Darker blue on hover */
+    color: #0056b3;
   }
   
   .footer-social-list {
@@ -60,12 +60,12 @@
   
   .footer-social-link {
     text-decoration: none;
-    color: #007bff; /* Blue color for social links */
+    color: #007bff; 
     transition: color 0.3s;
   }
   
   .footer-social-link:hover {
-    color: #0056b3; /* Darker blue on hover */
+    color: #0056b3; 
   }
   
   .footer-bottom {
