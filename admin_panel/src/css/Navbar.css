@@ -1,0 +1,82 @@
+.custom-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #dee2e6;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .custom-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+    text-decoration: none;
+  }
+  
+  .custom-toggler {
+    border: none;
+    background: transparent;
+  }
+  
+  .custom-toggler-icon {
+    background-image: url('data:image/svg+xml,...'); /* Replace with appropriate SVG */
+  }
+  
+  .custom-collapse {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+  
+  .custom-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .custom-nav-item {
+    margin-left: 1rem;
+  }
+  
+  .custom-nav-link {
+    text-decoration: none;
+    color: #343a40;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .custom-nav-link:hover {
+    color: #007bff;
+  }
+  
+  .custom-dropdown-toggle {
+    background-color: #6c757d;
+    border: none;
+    color: white;
+  }
+  
+  .custom-dropdown-toggle:focus {
+    box-shadow: none;
+  }
+  
+  .custom-dropdown-menu {
+    background-color: #6c757d;
+    margin-top: 0.5rem;
+  }
+  
+  .custom-dropdown-item {
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+  
+  .custom-dropdown-item:hover {
+    background-color: #5a6268;
+  }
+  

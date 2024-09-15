@@ -1,0 +1,63 @@
+/* General Styles */
+.discover-container {
+    padding: 2rem;
+    background-color: #f8f9fa; /* Light background for light theme */
+    color: #343a40; /* Dark text color for contrast */
+    min-height: 80vh;
+  }
+  
+  .discover-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .admin-actions, .user-actions {
+    margin: 2rem 0;
+  }
+  
+  .action-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #007bff; /* Blue background */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .action-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #ffffff;
+  }
+  
+  .divider {
+    margin: 2rem 0;
+    border: 0;
+    border-top: 1px solid #dee2e6; /* Light grey divider */
+  }
+  
+  .section-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .section-heading span {
+    color: #007bff; /* Highlighted color */
+  }
+  
+  .section-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .section-subheading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #007bff;
+  }
+  
